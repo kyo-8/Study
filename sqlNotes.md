@@ -207,7 +207,8 @@ SELECT SUM(<カラム名1>), <カラム名2>, <カラム名3> FROM <テーブル
 ## WHEREとGROUP BY
 ### GROUP BYはWHEREとも併用することができ、その場合はWHEREの後に書きます。WHEREとGROUP BYと集計関数は以下の順番で実行されていきます。右下の図のようにWHEREはまず最初に、そのあとにGROUP BYと関数が実行されます。
 
-|:-------------|:------------|
+
 | 検索 | WHERE |
+|:-------------|:------------|
 | グループ化 | GROUP BY |
 | 関数 | COUNT/SUM/AVG/MAX/MIN |
